@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(Norse-Bold.otf);
+}
+
+h1{
+    font-family: Norse-Bold;
+}
+
+* { 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left {
+    background-image: url(flowers.jpg);
+    width: 35vw;
+    background-size: cover; /*makes background fit in div no matter how much its resized */
+    background-repeat: no-repeat;
+    color: white;
+    font-family: Norse-Bold;
+} 
+
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.first {
+    height: 40vh;
+}
+
+.second {
+    height: 30vh;
+}
+
+.third {
+    height: 30vh;
+}
