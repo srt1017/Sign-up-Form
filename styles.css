@@ -54,6 +54,7 @@ h1{
 .third {
     height: 40vh;
     background-color: rgb(248, 243, 243);
+    box-shadow: 2px 5px #e5e7eb;
     
 }
 
@@ -61,8 +62,9 @@ h1{
     display: flex;
     flex-direction: row;
     width: 60%;
-    margin-left: 50px;
+    margin-left: 110px;
     justify-content: space-between;
+    margin-top: 30px;
     
 }
 
@@ -86,9 +88,9 @@ h1{
 }
 
 input {
-    width: 220px;
+    width: 250px;
     border: 1px solid #e5e7eb;
-    height: 25px;
+    height: 35px;
     border-radius: 5px;
 }
 
@@ -120,11 +122,35 @@ label {
     height: 45px;
     width: 200px;
     margin-top: 35px;
-    margin-left: 50px;
+    margin-left: 110px;
+    cursor: pointer;
+    box-shadow: 2px 5px #e5e7eb;
 }
 
 .hyperlink {
     margin-top: 40px;
-    margin-left: 50px;
+    margin-left: 110px;
     font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(192, 106, 120);
+    font-weight: bold;
+}
+
+.semitransparent {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    background-color: black;
+    opacity: 0.5;
+    margin-top: 27.5vh;
+    align-items: center;
+}
+
+.bannertext {
+    font-size: 110px;
 }
