@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <script src="script.js"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/wxr0huk.css">
     <title>Sign Up Form</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -13,9 +15,56 @@
             <h1>Hi</h1>
         </div>
         <div class="right">
-            <div class="first">Hi</div>
-            <div class="second">Hello</div>
-            <div class="third">World</div>
+            <div class="first"></div>
+            <div class="second"> 
+                <h2>
+                    Do you want to level up your life? Want a faster car? <br/>
+                    Tired of being a lazy, unmotivated slob? Let me help. <br/>
+                    Let me help you achieve everything you've <em>ever</em> wanted.
+                    <br><br/>
+                    You <em>won't</em> regret it.
+                </h2>
+            </div>
+            <div class="third">
+                <h2 style="margin-left: 50px; margin-top: 30px;">Lets upgrade <em><strong>you.</strong></em></h2>
+                <form action="" method="get" class="form-main-div">
+                    <div class="form-divsleft">
+                        <div class="form-div">
+                            <label for="firstName">FIRST NAME</label>
+                            <input type="text" id="firstName" name="first_name">
+                        </div>
+                        <div class="form-div">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="form-div">
+                            <label for="password">*PASSWORD</label>
+                            <input type="password" id="password" name="password" required>
+                            <p id="error"></p>
+                        </div>
+                    </div>
+                    <div class="form-divsright">
+                        <div class="form-div">
+                            <label for="lastName">LAST NAME</label>
+                            <input type="text" id="lastName" name="last_name">
+                        </div>
+                        <div class="form-div">
+                            <label for="phoneNum">PHONE NUMBER</label>
+                            <input type="tel" id="phoneNum" name="phoneNum">
+                        </div>
+                        <div class="form-div">
+                            <label for="confirmPassword">*CONFIRM PASSWORD</label>
+                            <input type="password" id="confirmpassword" name="confirmPassword" required>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="fourth">
+                <button type="submit" class="btn btn-flower">Create Account</button>
+                <div class="hyperlink">
+                    <p>Already have an account?<a href="">Log in</a></p>
+                </div>
+            </div>
         </div>    
     </div>
         
